@@ -10,7 +10,11 @@ C#
 - Using a WriteableBitmap and it's Backbuffer
 - No airspace restrictions due to pixel ownership with WPF
 
-TODO:
+### Requirements:
+- VS 2019 (.NET version 4.6.1)
+- [CMake tools for VS](https://docs.microsoft.com/en-us/cpp/build/cmake-projects-in-visual-studio?view=msvc-160) have to be installed
+
+### TODO:
 - Implement background render thread
 - Benchmark against OpenTK control, etc.
 - Why can't the window creation be omitted ?
