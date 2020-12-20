@@ -14,6 +14,11 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MonoMax.MonoMaxGraphics", "MonoMax.WpfDrawing\MonoMax.SceneGraphCLR.vcxproj", "{1BCDF537-15FB-4C65-9993-4C6874F98EAF}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MonoMax.Engine", "MonoMax.EngineCore\MonoMax.GLPlayground.vcxproj", "{ADEF9D59-FF68-4286-9093-69DA1D6CA7FD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{64B804C5-0B5F-4A60-8D6F-CE748601FB69} = {64B804C5-0B5F-4A60-8D6F-CE748601FB69}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GLFW", "GLFW\GLFW.vcxproj", "{64B804C5-0B5F-4A60-8D6F-CE748601FB69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,8 +28,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{64632597-D780-43E1-861E-9E0CDC32EF91}.Debug|x64.ActiveCfg = Debug|x64
 		{64632597-D780-43E1-861E-9E0CDC32EF91}.Debug|x64.Build.0 = Debug|x64
-		{64632597-D780-43E1-861E-9E0CDC32EF91}.Release|x64.ActiveCfg = Release|Any CPU
-		{64632597-D780-43E1-861E-9E0CDC32EF91}.Release|x64.Build.0 = Release|Any CPU
+		{64632597-D780-43E1-861E-9E0CDC32EF91}.Release|x64.ActiveCfg = Release|x64
+		{64632597-D780-43E1-861E-9E0CDC32EF91}.Release|x64.Build.0 = Release|x64
 		{1BCDF537-15FB-4C65-9993-4C6874F98EAF}.Debug|x64.ActiveCfg = Debug|x64
 		{1BCDF537-15FB-4C65-9993-4C6874F98EAF}.Debug|x64.Build.0 = Debug|x64
 		{1BCDF537-15FB-4C65-9993-4C6874F98EAF}.Release|x64.ActiveCfg = Release|x64
@@ -33,6 +38,10 @@ Global
 		{ADEF9D59-FF68-4286-9093-69DA1D6CA7FD}.Debug|x64.Build.0 = Debug|x64
 		{ADEF9D59-FF68-4286-9093-69DA1D6CA7FD}.Release|x64.ActiveCfg = Release|x64
 		{ADEF9D59-FF68-4286-9093-69DA1D6CA7FD}.Release|x64.Build.0 = Release|x64
+		{64B804C5-0B5F-4A60-8D6F-CE748601FB69}.Debug|x64.ActiveCfg = Debug|x64
+		{64B804C5-0B5F-4A60-8D6F-CE748601FB69}.Debug|x64.Build.0 = Debug|x64
+		{64B804C5-0B5F-4A60-8D6F-CE748601FB69}.Release|x64.ActiveCfg = Release|x64
+		{64B804C5-0B5F-4A60-8D6F-CE748601FB69}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

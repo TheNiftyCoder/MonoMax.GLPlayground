@@ -1,4 +1,4 @@
-#include "GraphicsEngine.h";
+#include "GraphicsEngine.h"
 
 
 namespace MonoMaxGraphics
